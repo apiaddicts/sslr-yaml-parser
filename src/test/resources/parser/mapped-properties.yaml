@@ -1,0 +1,19 @@
+x-first:
+  p1: 1
+x-second:
+  p1: 2
+scalarMap:
+  first: some content
+  second: other content
+objectMap:
+  first:
+    p1: 3
+  second:
+    p1: 4
+arrayMap:
+  first:
+    - "one"
+    - "two"
+  second:
+    - "three"
+    - "four"

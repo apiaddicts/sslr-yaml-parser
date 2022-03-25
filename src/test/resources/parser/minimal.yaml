@@ -1,0 +1,6 @@
+p1: some content
+p2:
+  p1: 1
+p3:
+  p1: true
+  p2: -23.0

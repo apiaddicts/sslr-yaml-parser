@@ -1,0 +1,7 @@
+  openapi: "3.0.0"
+  # some comment
+key: value # comment after value
+otherKey:
+  #
+  # comment after block mapping start
+  key: value
