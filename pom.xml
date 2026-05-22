@@ -11,7 +11,7 @@
 
     <groupId>org.apiaddicts.apitools.dosonarapi.sslr</groupId>
     <artifactId>sslr-yaml-parser</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>doSonarAPI SSLR :: YAML Parser</name>
     <description>Parser and grammar generator toolkit for YAML-based domain languages</description>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-	    <version>22.0</version>
+	    <version>32.0.1-jre</version>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
@@ -104,12 +104,11 @@
 	    <version>4.12</version>
 	    <scope>test</scope>
         </dependency>
-        <!-- must appear AFTER junit otherwise junit sees wrong version of Hamcrest -->
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-	    <version>1.10.19</version>
-	    <scope>test</scope>
+            <artifactId>mockito-core</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -118,7 +117,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.2</version>
+                <version>0.8.12</version>
                 <executions>
                     <execution>
                         <goals>
