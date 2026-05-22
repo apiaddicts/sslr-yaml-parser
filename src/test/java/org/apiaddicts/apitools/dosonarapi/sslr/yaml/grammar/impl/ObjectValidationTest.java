@@ -31,7 +31,7 @@ import org.apiaddicts.apitools.dosonarapi.sslr.yaml.grammar.ValidationIssue;
 import org.apiaddicts.apitools.dosonarapi.sslr.yaml.grammar.ValidationRule;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Matchers.any;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doAnswer;
 
 public class ObjectValidationTest extends ValidationTestBase {
